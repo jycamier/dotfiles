@@ -1,0 +1,16 @@
+[user]
+	name = Jean-Yves CAMIER
+	email = {{ .gitEmail }}
+	signingkey = {{ .gitSigningkey }}
+[include]
+    path = ~/.gitconfig-aliases
+[core]
+	excludesfile = ~/.gitignore_global
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = ~/.config/git/allowed_signers
+[url "ssh://git@github.com/"]
+    insteadOf = https://github.com/
