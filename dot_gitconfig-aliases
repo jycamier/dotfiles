@@ -1,6 +1,6 @@
 [alias]
     # --- Raccourcis basiques ---
-    st     = status -sb                 # Status court
+    st     = status                 # Status court
     ci     = commit                     # Commit
     co     = checkout                   # Checkout
     br     = branch                     # Branches
